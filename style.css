@@ -1,3 +1,22 @@
+.link-carrier{
+    font-weight: 700; 
+    font-family: Arial, sans-serif; 
+    color: #5c5c5c; 
+    margin-left: 20px;
+}
+.link-carrier:hover{
+    color: #464646;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 800px){
     .col-6{
         width: 100%;
