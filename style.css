@@ -1,8 +1,11 @@
+    body{
+        scroll-behavior: smooth;
+    }
     .link-carrier {
         font-weight: 700;
         font-family: Arial, sans-serif;
         color: #5c5c5c;
-        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .link-carrier:hover {
@@ -10,7 +13,7 @@
     }
 
     .html-section {
-        background-color: #342d49;
+        background-color: #2a2942ec;
         padding: 20px;
         color: white;
     }
@@ -31,6 +34,7 @@
     .space-carrier{
         margin: 20px;
         border-radius: 10px;
+        padding: 10px;
     }
     .start{
         width: 65%;
@@ -47,7 +51,7 @@
         .col {
             width: 100%;
         }
-        
+
         .start{
             width: 100%;
         }
