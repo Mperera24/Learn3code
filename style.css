@@ -50,10 +50,21 @@
         height: 400px;
         background-color: rgba(255, 255, 255, 0.507);
         padding-left: 40px;
-       padding-right: 40px;
-
+        padding-right: 40px;
+        margin: 20px;
         
     }
+    .bg-contact-form-r{
+        margin: 10px;
+        border-radius: 15px;
+        height: 300px;
+        margin-bottom: 100px;
+        background-color: rgba(255, 255, 255, 0.507);
+  }
+    .bg-contact-form-r h4{
+        margin-left: 15px;
+    }
+    
     .devlopers-card {
         background-color: rgba(0, 0, 0, 0);
         border-radius: 10px;
@@ -78,7 +89,7 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         color: rgb(0, 0, 0);
-
+     
     }
 
     .about-page {
@@ -136,11 +147,17 @@
         .bg-contact-form{
             margin-left: 10px;
             margin-right: 10px;
-            margin-top: -80px;
             margin-bottom: 20px;
+        }
+        .bg-contact-form-r{
+            width: 90%;
+            margin-bottom: 10px;
         }
         .devlopers-card{
             margin: 10px;
             color: white;
+        }
+        .smlar{
+            font-size: 18px;
         }
     }
