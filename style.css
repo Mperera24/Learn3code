@@ -1,7 +1,20 @@
   html {
     scroll-behavior: smooth;
   }
+  .header-section{
+    background-color: bisque;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  col{
 
+  }
+.img-tag{
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+    margin: 100px;
+}
     .link-carrier {
         font-weight: 700;
         font-family: Arial, sans-serif;
@@ -15,8 +28,9 @@
 
     .html-section {
         background-color: #2a2942ec;
-        padding: 20px;
+        padding: 0px;
         color: white;
+        
     }
 
     .html-section h5,
@@ -55,7 +69,7 @@
         
     }
     .bg-contact-form-r{
-        margin: 10px;
+        margin: 20px;
         border-radius: 15px;
         height: 300px;
         margin-bottom: 100px;
@@ -101,9 +115,7 @@
         padding: 40px;
         margin-bottom: -10px;
     }
-
-
-
+ 
 
 
 
@@ -147,11 +159,16 @@
         .bg-contact-form{
             margin-left: 10px;
             margin-right: 10px;
-            margin-bottom: 20px;
+            height: auto;
+            padding-bottom: 10px;
+            margin-top: -80px;
         }
         .bg-contact-form-r{
-            width: 90%;
-            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: auto;
+
+            
         }
         .devlopers-card{
             margin: 10px;
@@ -159,5 +176,14 @@
         }
         .smlar{
             font-size: 18px;
+        }
+        .img-tag{
+            margin: auto;
+            padding-top: 50px;
+            margin-bottom: 150px;
+            width: 100%;
+        }
+        .coding-img{
+            margin-top: -150px;
         }
     }
