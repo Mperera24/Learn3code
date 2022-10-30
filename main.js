@@ -17,3 +17,9 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+function run(){
+  alert("Hello World")
+
+}
