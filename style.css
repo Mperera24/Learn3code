@@ -96,6 +96,9 @@
         text-align: left;
         float: left;
     }
+    .carrier-hover:hover{
+        opacity: 0.8;
+    }
 
     .contact {
         background-image: url("images/blob-scene-haikei.png");
@@ -120,9 +123,13 @@
     margin-bottom: 20px;
 }
 
-
-
-
+.fa-bars{
+    margin: auto;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    font-size: 25px;
+}
 
 
 
