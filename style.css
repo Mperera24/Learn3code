@@ -6,9 +6,6 @@
     margin-top: 50px;
     margin-bottom: 150px;
   }
-  col{
-
-  }
 .img-tag{
     height: auto;
     width: 50%;
@@ -130,6 +127,56 @@
     margin: 10px;
     font-size: 25px;
 }
+
+
+.gr5{
+    text-align: left;
+    overflow: auto;
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218);
+}
+.code-edit{
+    text-align: left;
+}
+.copybtn{
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #0b7dff;
+
+}
+.copybtn:hover{
+    background-color: #005fee;
+
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+.center-preview{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

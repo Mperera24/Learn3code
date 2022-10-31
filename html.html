@@ -118,7 +118,7 @@
 
               <div class="code-edit">
                 <pre class="gr5" id="myInput">
-                  <xmp>
+                      <xmp>
                     <html>
                       <head>
                         <title>First Webpage</title>
@@ -127,7 +127,7 @@
                         <h1>This is my first webpage.</h1>
                       </body>
                     </html>
-                  </xmp>
+                      </xmp>
                 </pre>
 
                 <button class="copybtn" onclick="copytext()" id="button">Copy code</button>
@@ -157,7 +157,7 @@
                   alt="">
 
 
-
+             </div>
 
               </div>
             </div>
@@ -167,6 +167,56 @@
       </div>
 
 
+      <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      </script>
+    
+      <script>
+        function copyFunction() {
+          const copyText = document.getElementById("myInput").textContent;
+          const textArea = document.createElement('textarea');
+          textArea.textContent = copyText;
+          document.body.append(textArea);
+          textArea.select();
+          document.execCommand("copy");
+        }
+        function copyFunctionA() {
+          const copyText = document.getElementById("copycodetoA").textContent;
+          const textArea = document.createElement('textarea');
+          textArea.textContent = copyText;
+          document.body.append(textArea);
+          textArea.select();
+          document.execCommand("copy");
+        }
+        function copyFunctionB() {
+          const copyText = document.getElementById("copycodetoB").textContent;
+          const textArea = document.createElement('textarea');
+          textArea.textContent = copyText;
+          document.body.append(textArea);
+          textArea.select();
+          document.execCommand("copy");
+        }
+    
+        document.getElementById('button').addEventListener('click', copyFunction);
+        document.getElementById('buttonA').addEventListener('click', copyFunctionA);
+        document.getElementById('buttonB').addEventListener('click', copyFunctionB);
+    
+        function copytext() {
+          document.getElementById("button").innerHTML = "Copied" + '&nbsp;' + ' <i style="color: #fff;" class="fa-solid fa-check"></i>';
+    
+        }
+    
+        function copytextA() {
+          document.getElementById("buttonA").innerHTML = "Copied" + '&nbsp;' + ' <i style="color: #fff;" class="fa-solid fa-check"></i>';
+    
+        }
+    
+        function copytextB() {
+          document.getElementById("buttonB").innerHTML = "Copied" + '&nbsp;' + ' <i style="color: #fff;" class="fa-solid fa-check"></i>';
+    
+        }
+      </script>
 </body>
 
 </html>

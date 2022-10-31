@@ -23,3 +23,20 @@ function run(){
   alert("Hello World")
 
 }
+
+function downloadClicked(){
+  document.getElementById('download-preview').style.visibility="visible";
+} setTimeout(showdiv, 8000)
+function downloadClicked(){
+  document.getElementById('download-preview').style.visibility="visible";
+ setTimeout(hidediv, 8000)
+}
+
+function showdiv()
+    {
+      document.getElementById('download-preview').style.visibility="hidden";
+    }
+function hidediv()
+    {
+      document.getElementById('download-preview').style.visibility="hidden";      
+    }
